@@ -1,0 +1,312 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+/*Navbar strat*/
+.bg-custom-green{
+    background:#20B24D;
+    height: 100px;
+}
+
+.logo{}
+
+.fpass{ 
+
+    position: relative;
+    left: 58px;
+}
+.logo {
+    float: left;
+    padding: .2em 1em;
+    margin: .2em 0 0 .2em;
+    text-align: center;
+}
+
+.navbar-nav .nav-link {
+       padding-right: 0px;
+    padding-left: 178px;
+    padding-top: 33px;
+    padding-bottom: 0px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Ubuntu Light";
+}
+
+.nav-link a:hover{
+
+    background: #1ECC54;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    position: absolute;
+    right: 7px;
+    top: 18px;
+    height: 40px;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    margin-bottom:6px;
+}
+.btn-outline-success {
+    color: #FFFFFF;
+    background-color: #1ECC54;
+    background-image: none;
+    border-color: #1ECC54;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.myfrom{
+
+    margin-left: 20px;
+}
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: -12px;
+    list-style: none;
+}
+/*Navbar End*/
+
+/*body start*/
+
+
+html, body {
+    height: 100%;
+    font-family: 'Avenir',sans-serif;
+    background: url(../img/map.PNG);
+    height: auto;
+}
+
+.mybody{
+
+    margin-top: 160px;
+
+
+}
+.btN{
+    margin-top: 20px;
+    height: 60px;
+
+    width: 260px;
+    background-color: #C6C5C4;
+    border-radius: 4px;
+}
+
+
+
+.myclass {
+    height: 52px;
+    width: 261px;
+}
+
+
+
+.btn-imgsec {
+    float: left;
+    height: 59px;
+    width: 49px;
+    background-color: #fff;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-top: 15px;
+}
+
+.btn-image{
+
+
+}
+
+.input-group{width: 82% !important;
+             clear: both;
+             overflow: hidden;
+             left: 60px;
+}
+.btn-text{
+    font-size: 21px;
+    font-weight: bold;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.cross{
+    position: relative;
+    content: '';
+   color: #000;
+  
+}
+/*body end*/
+
+/*allcars start*/
+#allcars{
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+    margin-bottom: 50px;
+    background-color: #C2C5C7;
+    border-radius: 10px;
+    margin-top: 8%;
+
+}
+
+/*allcars end*/
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: justify;
+
+}
+/*about us content end*/
+#scanFile {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+
+
+
+.mybutton{
+
+    margin-left: 130px;
+}
+.myrentcar{
+    margin-left: 80px;
+
+}
+
+
+
+
+/*footer start*/
+
+.bg-myfooter{
+
+    background-color: #20B24D!important;
+    max-height: 40px;
+}
+
+.pb-3, .py-3 {
+    padding-bottom: 2rem!important;
+}
+/*footerend*/
+@media (min-width: 992px){
+    .mb-lg-0, .my-lg-0 {
+        margin-bottom: 0!important;
+        margin-left: 90px;
+    }
+}
+/*@media (min-width: 1200px){
+.navbar-nav .nav-link {
+   
+    font-size: 13px;
+
+}
+}*/
+@media (max-width: 992px){
+    .logo {
+        float: left;
+        padding: 0.1em 0em;
+        margin: 0.1em 0px -5px 0.1em;
+        text-align: center;
+    }
+
+    .bg-custom-green {
+        background: #20B24D;
+        height: 152px;
+    }
+
+    .fixed-top {
+        position: fixed;
+        top: -5px;
+        right: 0px;
+        left: 0px;
+        z-index: 1030;
+    }
+    .input-group {
+        width: 100% !important;
+        clear: both;
+        overflow: hidden;
+        left: 0px;
+    }
+
+    .fpass {
+        position: relative;
+        left: 0px;
+    }
+    .navbar-nav {
+        display: -ms-flexbox;
+        /* display: flex; */
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        margin-top: 65px;
+        /* list-style: none; */
+    }
+
+    .navbar-nav .nav-link {
+        /* padding-right: 100px; */
+        padding-left: 0;
+        padding-top: 25px;
+        padding-bottom: 0px;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 16px;
+        font-family: "Ubuntu Light";
+    }
+    button, input, optgroup, select, textarea {
+        /* margin: 0; */
+        margin-right: 2px;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+   
+/*allcars start*/
+#allcars{
+
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1em;
+    margin-bottom: 50px;
+    background-color: #C2C5C7;
+    border-radius: 10px;
+    margin-top: 39%;
+
+}
+
+/*allcars end*/
+  
+}
+
